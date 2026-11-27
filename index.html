@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOTION LAB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>MOTION LAB</h1>
+  <p>映像編集と3D制作についてのページです。</p>
+
+  <hr>
+
+  <h2 id="studio">アニメーションを動かしてみよう</h2>
+  <p>図形の形や色、回転する速さを変えることができます。</p>
+
+  <div id="preview">
+    <div id="shape">3D</div>
+  </div>
+
+  <p>図形：
+    <button id="square">四角形</button>
+    <button id="circle">円</button>
+    <button id="diamond">ひし形</button>
+  </p>
+  <p>色：
+    <button id="blue">青</button>
+    <button id="red">赤</button>
+    <button id="green">緑</button>
+  </p>
+  <p>
+    <label for="speed">回転速度：</label>
+    <select id="speed">
+      <option value="1">遅い</option>
+      <option value="3" selected>普通</option>
+      <option value="7">速い</option>
+    </select>
+  </p>
+  <p>
+    <button id="stop">一時停止</button>
+    <button id="reset">リセット</button>
+  </p>
+
+  <hr>
+
+  <h2 id="about">制作について</h2>
+  <p>映像編集や3D制作に興味があるので、図形を動かすページを作ってみました。</p>
+  <h3>使った技術</h3>
+  <ul>
+    <li>HTML：ページの文章やボタンを作る</li>
+    <li>CSS：色や図形の見た目を設定する</li>
+    <li>JavaScript：ボタンの操作や図形の回転を行う</li>
+  </ul>
+  <script src="script.js"></script>
+</body>
+</html>
